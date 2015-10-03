@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<type>
+	<smallDeals>
+		<smallDeal>
+			<name>House for Sale - 3Br/2Ba</name>
+			<id>1</id>
+			<description>Nice 3/2 house available in depressed market due to layoffs. Would make good investment property for right buyer.</description>
+			<use>Use this yourself or sell to another player.</use>
+			<roi>60% ROI may sell for $65,000 to $135,000</roi>
+			<cost>50000</cost>
+			<mortgage>46000</mortgage>
+			<downpay>4000</downpay>
+			<cashflow>200</cashflow>
+			<flowpn>positive</flowpn>
+		</smallDeal>
+	</smallDeals>
+</type>

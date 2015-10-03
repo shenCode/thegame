@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ipLabel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.shencode.thegame.controller.LobbySceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="82.0" layoutX="103.0" layoutY="391.0" stroke="BLACK" strokeType="INSIDE" width="744.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="82.0" layoutX="103.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" width="744.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="82.0" layoutX="103.0" layoutY="278.0" stroke="BLACK" strokeType="INSIDE" width="744.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="82.0" layoutX="103.0" layoutY="57.0" stroke="BLACK" strokeType="INSIDE" width="744.0" />
+      <Label layoutX="119.0" layoutY="72.0" text="DefaultValue">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="startButton" layoutX="625.0" layoutY="615.0" mnemonicParsing="false" onAction="#startEvent" text="Start">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="806.0" layoutY="615.0" mnemonicParsing="false" onAction="#backEvent" text="Back">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Button>
+      <Label layoutX="119.0" layoutY="185.0" text="DefaultValue">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="293.0" text="DefaultValue">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="406.0" text="DefaultValue">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="versionLabel" layoutX="442.0" layoutY="724.0" text="Version">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="createServer" layoutX="237.0" layoutY="530.0" mnemonicParsing="false" onAction="#startServer" prefHeight="53.0" prefWidth="211.0" text="Create Server">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="joinServer" layoutX="520.0" layoutY="530.0" mnemonicParsing="false" onAction="#startClient" prefHeight="53.0" prefWidth="211.0" text="Join Server">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="ipField" alignment="CENTER" layoutX="330.0" layoutY="487.0" prefHeight="26.0" prefWidth="368.0" />
+   </children>
+</AnchorPane>
